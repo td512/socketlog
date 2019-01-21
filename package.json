@@ -1,0 +1,28 @@
+{
+  "name": "socketlog",
+  "version": "1.0.0",
+  "description": "Log tailer for TheoM's Mirror Service",
+  "keywords": [],
+  "author": {
+    "name": "Theo M.",
+    "email": "theo@morra.nz"
+  },
+  "license": {
+    "type": "GPL-3.0-or-later"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/td512/socketlog.git"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "connect": "2.11.0",
+    "optimist": "^0.6.1",
+    "socket.io": "^2.2.0",
+    "stylus": "^0.54.5"
+  },
+  "main": "server.js"
+}
